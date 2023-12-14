@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+#category {
+  margin: inherit;
+}
+.mealsList {
+  display: flex;
+  flex-flow: column wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.mealContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column wrap;
+  align-items: center;
+  border: solid;
+  margin: 5px;
+  padding: 20px;
+  width: min-content;
+  border-radius: 50px;
+}
+
+.foodItem {
+  width: 150px;
+  height: 150px;
+  border-radius: inherit;
+}
